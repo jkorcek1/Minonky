@@ -1,0 +1,33 @@
+body{
+    background: #171717;
+    font-family: Public Sans, sans-serif;
+}
+
+h1.title{
+    color: white;
+    font-size: 75px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.marquee { 
+    width: 100%; 
+    overflow: hidden; 
+} 
+.marquee span { 
+    display: inline-block; 
+    white-space: nowrap; 
+    animation: marquee 29s linear infinite; 
+} 
+@keyframes marquee { 
+    0% { 
+      transform: translateX(-80%); 
+    } 
+    100% { 
+      transform: translateX(0%); 
+    } 
+} 
